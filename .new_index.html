@@ -114,7 +114,8 @@
                                 <p>El otro Preci.</p>
                         </div>
                         <div class="col-md-3 col-sm-6">
-                            <img id="tesorero" class="img-responsive img-circle" src="img/agus_old.png"> 
+                            <img id="tesorero" class="img-responsive img-circle old" src="img/agus_old.png"> 
+                            <img id="tesorero" class="img-responsive img-circle new" src="img/agus_now.png">
                                 <h4>
                                     <strong>Tesorero</strong>
                                 </h4>
@@ -348,7 +349,9 @@
     });
     //tesorero shadow
     $('img#tesorero').mouseenter(function(){
+        $(this).fadeOut(800);
         $(this).attr("src", "img/agus_now.png");
+        $(this).fadeIn(800);
     });
     $('img#tesorero').mouseleave(function(){
         $(this).attr("src", "img/agus_old.png");
