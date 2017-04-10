@@ -116,8 +116,6 @@ var text_json = {
 //    text_json = json;
 //});
 
-
-
 function changeIdiom(laguague){
 	var idiom = text_json;
 	if (laguague == "ENG") {
