@@ -116,7 +116,7 @@ var text_json = {
 //    text_json = json;
 //});
 
-changeIdiom("ESP");
+
 
 function changeIdiom(laguague){
 	var idiom = text_json;
