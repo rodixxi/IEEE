@@ -115,52 +115,70 @@ var text_json = {
 //   console.log(json); // this will show the info it in firebug console
 //    text_json = json;
 //});
-var spanish = text_json.spanish;
 
-var nav = spanish.index.nav;
-var source = $("#nav-template").html();
-var template = Handlebars.compile(source);
-var data = nav;
-$("#sidebar-wrapper").html(template(data));
+changeIdiom("ESP");
 
-var header = spanish.index.header
-var source = $("#header-template").html();
-var template = Handlebars.compile(source);
-var data = header;
-$("#top").html(template(data));
+function changeIdiom(laguague){
+	var idiom = text_json;
+	if (laguague == "ENG") {
+		idiom = text_json.english;		
+	}
+	if (laguague == "ESP") {
+		idiom = text_json.spanish;
+	}
+	console.log(idiom);
+	var nav = idiom.index.nav;
+	console.log(nav);
+	var source = $("#nav-template").html();
+	var template = Handlebars.compile(source);
+	var data = nav;
+	$("#sidebar-wrapper").html(template(data));
 
-var about = spanish.index.section_about;
-var source = $("#about-template").html();
-var template = Handlebars.compile(source);
-var data = about;
-$("#about").html(template(data));
+	var header = idiom.index.header
+	var source = $("#header-template").html();
+	var template = Handlebars.compile(source);
+	var data = header;
+	$("#top").html(template(data));
 
-var authorities = spanish.index.section_authorities;
-var source = $("#authorities-template").html();
-var template = Handlebars.compile(source);
-var data = authorities;
-$("#authorities").html(template(data));
+	var about = idiom.index.section_about;
+	var source = $("#about-template").html();
+	var template = Handlebars.compile(source);
+	var data = about;
+	$("#about").html(template(data));
 
-var aside_phrase = spanish.index.aside_phrase;
-var source = $("#aside-phrase-template").html();
-var template = Handlebars.compile(source);
-var data = aside_phrase;
-$("#aside-phrase").html(template(data));
+	var authorities = idiom.index.section_authorities;
+	var source = $("#authorities-template").html();
+	var template = Handlebars.compile(source);
+	var data = authorities;
+	$("#authorities").html(template(data));
 
-var activities = spanish.index.section_activities;
-var source = $("#activities-template").html();
-var template = Handlebars.compile(source);
-var data = activities;
-$("#activities").html(template(data));
+	var aside_phrase = idiom.index.aside_phrase;
+	var source = $("#aside-phrase-template").html();
+	var template = Handlebars.compile(source);
+	var data = aside_phrase;
+	$("#aside-phrase").html(template(data));
 
-var aside_cotact = spanish.index.aside_cotact;
-var source = $("#aside-contact-template").html();
-var template = Handlebars.compile(source);
-var data = aside_cotact;
-$("#aside-contact").html(template(data));
+	var activities = idiom.index.section_activities;
+	var source = $("#activities-template").html();
+	var template = Handlebars.compile(source);
+	var data = activities;
+	$("#activities").html(template(data));
 
-var cotact = spanish.index.section_contact;
-var source = $("#contact-template").html();
-var template = Handlebars.compile(source);
-var data = cotact;
-$("#contact").html(template(data));
+	var aside_cotact = idiom.index.aside_cotact;
+	var source = $("#aside-contact-template").html();
+	var template = Handlebars.compile(source);
+	var data = aside_cotact;
+	$("#aside-contact").html(template(data));
+
+	var cotact = idiom.index.section_contact;
+	var source = $("#contact-template").html();
+	var template = Handlebars.compile(source);
+	var data = cotact;
+	$("#contact").html(template(data));
+	location.reload();
+};
+
+$("#ESP").click(changeIdiom("ESP"));
+$("#ENG").click(changeIdiom("ENG"));
+
+
