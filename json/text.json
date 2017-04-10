@@ -1,0 +1,52 @@
+{
+	"spanish": {
+		"index": {
+			"nav": {
+				"top": "Inicio",
+				"about": "Acerca de",
+				"authorities": "Autoridades",
+				"activities": "Actividades",
+				"map": "Donde estamos",
+				"contact": "Contacto"
+
+			},
+			"header": {
+				"branch": "Rama Estudiantil",
+				"university" : "Universidad Tecnológica Nacional",
+				"faculty": "Facultad Regional Córdoba",
+				"about": "Enterate más"
+			},
+			"section_about": {
+				"title": "Organización sin fines de lucro · Servicio de ingeniería · Centro de investigación educativa en Ciudad de Córdoba",
+				"paragraph": "El IEEE es la asociación profesional más grande del mundo dedicada al avance de la innovación tecnológica y excelencia en beneficio de la humanidad. El IEEE y sus miembros inspiran una comunidad global a través de las altamente citadas publicaciones de IEEE, conferencias, estándares tecnológicos y actividades profesionales y educativas."
+			},
+			"section_authorities": {
+				"title": "Autoridades",
+				"precident": "Presidente",
+				"precident_name": "El Preci",
+				"viceprecident": "Vicepresidente",
+				"viceprecident_name": "El otro preci",
+				"treasurer": "Tesorero",
+				"treasurer_name": "El de la plata",
+				"secretary": "Secretario",
+				"secretary_name": "El que toma nota"
+			},
+			"aside_phrase": {
+				"title": "El conocimiento no es una vasija que se llena, sino un fuego que se enciende"
+			},
+			"section_activities":{
+				"title": "Actividades"
+			},
+			"aside_cotact": {
+				"title": "Contactate con nosotos.",
+				"butom": "Contacto!"
+			},
+			"section_contact": {
+				"title": "Contacto",
+				"where": ["Centro de Investigación en Informática para la Ingeniería (CIII)","UNT - FRC ","Maestro M. Lopez esq. Cruz Roja","Ciudad Universitaria","Córdoba, CP 5000"],
+				"tel": "+54 9 351 El cel del Preci??",
+				"mail": "ieee.rama.utn.frc@gmail.com"
+			}
+		}
+	}
+} 

@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Start Bootstrap - Stylish activities (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -221,9 +221,9 @@ hr.small {
     padding: 50px 0;
 }
 
-/* Services */
+/* authorities */
 
-.services {
+.authorities {
     padding: 50px 0;
 }
 
@@ -245,21 +245,21 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
+/* activities */
 
-.portfolio {
+.activities {
     padding: 50px 0;
 }
 
-.portfolio-item {
+.activities-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-activities {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-activities:hover {
     opacity: 0.8;
 }
 
@@ -302,7 +302,7 @@ footer {
   right: 5px;
 }
 
-#services .img-responsive {
+#authorities .img-responsive {
     margin: 0 auto
 }
 
