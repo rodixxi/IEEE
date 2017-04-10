@@ -116,7 +116,7 @@ var text_json = {
 //    text_json = json;
 //});
 
-changeIdiom("ESP");
+
 
 function changeIdiom(laguague){
 	var idiom = text_json;
@@ -176,8 +176,3 @@ function changeIdiom(laguague){
 	var data = cotact;
 	$("#contact").html(template(data));
 };
-
-$("#ESP").click(changeIdiom("ESP"));
-$("#ENG").click(changeIdiom("ENG"));
-
-
