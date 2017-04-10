@@ -175,7 +175,6 @@ function changeIdiom(laguague){
 	var template = Handlebars.compile(source);
 	var data = cotact;
 	$("#contact").html(template(data));
-	location.reload();
 };
 
 $("#ESP").click(changeIdiom("ESP"));
