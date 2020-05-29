@@ -12,7 +12,7 @@ var text_json = {
 			},
 			"header": {
 				"branch": "Rama Estudiantil",
-				"university" : "Universidad Tecnológica Nacional",
+				"university" : "Universidad Blas Pascal",
 				"faculty": "Facultad Regional Córdoba",
 				"about": "Enterate más"
 			},
@@ -68,7 +68,7 @@ var text_json = {
 			},
 			"header": {
 				"branch": "Student Branch",
-				"university" : "National Technological University",
+				"university" : "Universidad Blas Pascal",
 				"faculty": "Facultad Regional Córdoba",
 				"about": "Learn more"
 			},
