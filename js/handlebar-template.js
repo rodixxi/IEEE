@@ -11,7 +11,7 @@ var text_json = {
 
 			},
 			"header": {
-				"branch": "Rama Estudiantil",
+				"branch": "Balalala",
 				"university" : "Universidad Tecnológica Nacional",
 				"faculty": "Facultad Regional Córdoba",
 				"about": "Enterate más"
