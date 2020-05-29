@@ -11,7 +11,7 @@ var text_json = {
 
 			},
 			"header": {
-				"branch": "Rama Estudiantil",
+				"branch": "Profesioanles",
 				"university" : "Universidad Tecnológica Nacional",
 				"faculty": "Facultad Regional Córdoba",
 				"about": "Enterate más"
@@ -67,7 +67,7 @@ var text_json = {
 
 			},
 			"header": {
-				"branch": "Student Branch",
+				"branch": "Professionals",
 				"university" : "National Technological University",
 				"faculty": "Facultad Regional Córdoba",
 				"about": "Learn more"
